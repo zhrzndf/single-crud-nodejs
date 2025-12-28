@@ -1,25 +1,18 @@
 # Simple CRUD Node.js & MySQL
-This is a very basic example of CRUD in Node.js n mySQL.
-## Installation
-*for newbies : Clone or download zip to your machine then hit this :
+A simple Node.js project to manage user profiles with CRUD operations (Create, Read, Update, Delete) using Express and MySQL.
+## Features:
 
-	npm install
+Add new records (Create)
 
-## Configuration (database)
-app.js
+View all users (Read)
 
-        host: 'localhost',
-        user: 'root', // mysql username
-        password : 'root', // mysql password
-        port : 3306, //port mysql
-        database:'nodejs'	 // mysql database name
+Edit existing records (Update)
 
+Delete records (Delete)
 
-	
-You're gonna need to create a DB named 'nodejs'
+Uses Pug as the template engine
 
+Connects to MySQL via express-myconnection
 ## NOTES
 This repo use Express 4.x.
 
-## Open your Browser
-And type: localhost:5000
